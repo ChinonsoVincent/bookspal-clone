@@ -1,405 +1,417 @@
-body{
-    font-family: Helvetica, Arial, sans-serif;
-    font-size: 13px;
-    overflow-x: hidden;
+body {
+	font-family: Helvetica, Arial, sans-serif;
+	font-size: 13px;
+	overflow-x: hidden;
 }
 
 /* header */
-.header-color{
-    background-color: #F44336;
-    font-size: 13px;
+.header-color {
+	background-color: #f44336;
+	font-size: 13px;
 }
 
-ul{
-    margin: 0;
-    padding: 0;
+header li {
+	list-style: none;
+	display: flex;
 }
 
-.header-1 a{
-    color: white;
-    text-decoration: none;
-    margin-right: 5px;
+header a {
+	color: white;
+	text-decoration: none;
+	display: flex;
 }
 
-header a:hover{
-    color: white;
-    text-decoration: underline;
+header a:hover {
+	color: white;
+	text-decoration: underline;
 }
 
-.header-2 a{
-    color: white;
-    text-decoration: none;
-    padding-right: 5px;
-    font-size: 15px;
+header ul {
+	margin: 0;
+	padding: 0;
+	display: flex;
 }
 
-.header-2 a:hover{
-    text-decoration: none;
+.header-1 a {
+	margin-right: 5px;
+}
+
+.header-2 a {
+	color: white;
+	text-decoration: none;
+	padding-right: 5px;
+	font-size: 15px;
+}
+
+.header-2 a:hover {
+	text-decoration: none;
 }
 
 /* nav bar */
-.nav-link{
-    color: black;
-    font-weight: bold;
+.nav-link {
+	color: black;
+	font-weight: bold;
 }
 
 .nav-link-active {
-    color: #F44336;
+	color: #f44336;
 }
 
 .nav-link:hover {
-    color: black;
+	color: black;
 }
 
 .nav-link-active:hover {
-    color: #F44336;
+	color: #f44336;
 }
 
 /* intro-secion */
 .nav-intro {
-    background: url(/assets/images/banner3.png) no-repeat;
-    background-size: cover;
-    max-height: 60vh;
+	background: url(/assets/images/banner3.png) no-repeat;
+	background-size: cover;
+	max-height: 60vh;
 }
 
 /* intro-secion text */
-.intro-text h2{
-    max-width: 300px;
+.intro-text h2 {
+	max-width: 300px;
 }
 
-.intro-text p{
-    max-width: 350px;
-    min-width: 200px;
+.intro-text p {
+	max-width: 350px;
+	min-width: 200px;
 }
 
 .intro-btn {
-    color: #FF5722;
-    border: #FF5722 solid 1px;
+	color: #ff5722;
+	border: #ff5722 solid 1px;
 }
 
 .intro-btn:hover {
-    background-color: #FF5722;
-    color: white;
+	background-color: #ff5722;
+	color: white;
 }
 
 .intro-btn span {
-    color: black;
+	color: black;
 }
 
 /* intro-secion image */
 .image-col {
-    position: relative;
-    bottom: 50px;
-    left: 30px;
+	position: relative;
+	bottom: 50px;
+	left: 30px;
 }
 
 .image-col img:nth-child(1) {
-    width: 250px;
-    height: 150px;
-    position: relative;
-    top: 320px;
-    right: 100px;
-    z-index: 2;
+	width: 250px;
+	height: 150px;
+	position: relative;
+	top: 320px;
+	right: 100px;
+	z-index: 2;
 }
 
 .image-col img:nth-child(2) {
-    width: 200px;
-    height: 300px;
-    position: relative;
-    top: 50px;
-    right: 0px;
+	width: 200px;
+	height: 300px;
+	position: relative;
+	top: 50px;
+	right: 0px;
 }
 
 /* black background section */
 .our-target-h {
-    height: 80px;
+	height: 80px;
 }
 
 .our-target {
-    background-color: #E1A002;
-    padding: 10px;
-    border: white solid 1px;
-    height: 100px;
-    position: relative;
-    bottom: 10px;
+	background-color: #e1a002;
+	padding: 10px;
+	border: white solid 1px;
+	height: 100px;
+	position: relative;
+	bottom: 10px;
 }
 
 .our-mantra {
-    color:#FF5722;
+	color: #ff5722;
 }
 
 .our-target-p {
-    z-index: 3;
+	z-index: 3;
 }
 
 .clear {
-    clear: both;
+	clear: both;
 }
 
 /* yellow background section */
 
 .yellow-bg-section {
-    padding: 50px 0 0 0;
+	padding: 50px 0 0 0;
 }
 
 .yellow-bg-section img {
-    width: 200px;
-    height: 300px;
+	width: 200px;
+	height: 300px;
 }
 
 .yellow-bg-section-p {
-    text-align: justify;
+	text-align: justify;
 }
 
 /* mission section */
 .mission-section p {
-    color: #B7B7B7;
+	color: #b7b7b7;
+	font-size: 12px;
+}
+
+.mission-section h3 {
+	font-size: 27px;
+	font-weight: 500;
 }
 
 .core-value-nav .nav-item {
-    padding: 0 10px;
+	padding: 0 10px;
 }
 
 .core-value-nav .nav-item a {
-    text-decoration: none;
+	text-decoration: none;
 }
 
 .core-value-nav .nav-item a:hover {
-    text-decoration: underline;
+	text-decoration: underline;
 }
 
 .core-value-hr {
-    margin-top: 2px;
+	margin-top: 2px;
 }
 
 /* founder section */
 .founder-section {
-    background-color: #F8F9FB;
+	background-color: #f8f9fb;
 }
 
 .founder-img {
-    height: 140px;
+	height: 140px;
 }
 
 .btn-read-more {
-    background-color: #24B540;
-    border: #24B540 solid 0.1px;
-    font-size: 12px;
-    padding: 3px 4px;
+	background-color: #24b540;
+	border: #24b540 solid 0.1px;
+	font-size: 12px;
+	padding: 3px 4px;
 }
 
 /* our drive section */
 .our-drive-h {
-    color: #24B540;
-    font-size: 22px;
-    font-weight: bold;
+	color: #24b540;
+	font-size: 22px;
+	font-weight: bold;
 }
 
 .our-drive-orange {
-    color: #FF9800;
+	color: #ff9800;
 }
 
-.our-drive-hr{
-    width: 125px;
-    height: 1px;
-    border: black solid 1px;
-    background-color: black;
-} 
+.our-drive-hr {
+	width: 125px;
+	height: 1px;
+	border: black solid 1px;
+	background-color: black;
+}
 
 .our-drive-grouping-icon {
-    font-size: 25px;
-    color: #23973E;
+	font-size: 25px;
+	color: #23973e;
 }
 
 /* carousel */
 .carousel-card {
-    max-width: 7rem; 
-    max-height: 200px; 
-    font-size: 10px;
+	max-width: 7rem;
+	max-height: 200px;
+	font-size: 10px;
 }
 
 .carousel-card .carousel-img {
-    max-height: 170px;
+	max-height: 170px;
 }
 
 /* club-categories */
 .club-categories {
-    background-color: #F8FFAE;
+	background-color: #f8ffae;
 }
 
 .club-categories-img {
-    width: 50px;
+	width: 50px;
 }
 
 .club-categories-p {
-    font-size: 20px;
+	font-size: 20px;
 }
 
 .club-categories-div {
-    height: 1px;
-    background-color: white;
+	height: 1px;
+	background-color: white;
 }
 
 .club-categories-btn {
-    border: black solid 0.01px;
-} 
+	border: black solid 0.01px;
+}
 
 @media only screen and (min-width: 580px) {
-    .club-categories-w {
-        width: 200px;
-    }
-  }
+	.club-categories-w {
+		width: 200px;
+	}
+}
 
 /* club category 1 */
 .club-categories-1 {
-    background-color: #F44336;
+	background-color: #f44336;
 }
 
 .club-categories-1-btn {
-    background-color: white;
+	background-color: white;
 }
 
 /* club category 2*/
 .club-categories-2 {
-    background-color: #FF9800;
+	background-color: #ff9800;
 }
 
 .club-categories-3-hr {
-    height: 0.1px;
+	height: 0.1px;
 }
 
 .club-categories-2-btn {
-    background-color: #FFEB3B;
+	background-color: #ffeb3b;
 }
 
 /* club category 3 */
 .club-categories-3 {
-    background-color: #FFEB3B;
+	background-color: #ffeb3b;
 }
 
 .club-categories-3-btn {
-    background-color: black;
-    color: #FFEB3B;
-    font-size: 20px;
-    padding: 10px 20px;
-    border-radius: 5px;
+	background-color: black;
+	color: #ffeb3b;
+	font-size: 20px;
+	padding: 10px 20px;
+	border-radius: 5px;
 }
 
 /* club category 4 */
 .club-categories-4 {
-    background-color: #37DC3E;
+	background-color: #37dc3e;
 }
 
 /* partner-section */
 .partner-section {
-    background: url(../images/wordpress.jpg);
-    background-size: cover;
-    background-position: center;
-    background-attachment: fixed;
+	background: url(../images/wordpress.jpg);
+	background-size: cover;
+	background-position: center;
+	background-attachment: fixed;
 }
 
 .partner-section-h {
-    color: #FF9800;
+	color: #ff9800;
 }
 
 .partner-section-hr {
-    width: 125px;
-    height: 2px;
-    background-color: white;
-    margin-bottom: -10px;
-}
-
-.partner-div {
-    max-width:fit-content;
+	width: 125px;
+	height: 2px;
+	background-color: white;
+	margin-bottom: -10px;
 }
 
 .partner-div a {
-    text-decoration: none;
+	text-decoration: none;
 }
 
 .partner-circle {
-    width: 100px;
-    height: 100px;
-    border: white solid 1px;
-    border-radius: 50%;
+	width: 100px;
+	height: 100px;
+	border: white solid 1px;
+	border-radius: 50%;
 }
 
 /* contact us section */
 .our-drive-h-bigger {
-    color: #24B540;
-    font-size: 30px;
+	color: #24b540;
+	font-size: 30px;
 }
 
-.contact-us-hr{
-    width: 125px;
-    height: 1px;
-    border: #FF9800 solid 1px;
-    background-color: #FF9800;
-} 
+.contact-us-hr {
+	width: 125px;
+	height: 1px;
+	border: #ff9800 solid 1px;
+	background-color: #ff9800;
+}
 
 .contact-us-img {
-    min-height: 200px;
+	min-height: 200px;
 }
 
 .contact-us-form-img {
-    max-width: 400px;
-    max-height: 250px;
+	max-width: 400px;
+	max-height: 250px;
 }
 
 .form-btn {
-    width: 140px;
+	width: 140px;
 }
 
 /* our partner */
 .our-partner-green {
-    color: #24B540;
+	color: #24b540;
 }
 
 /* FAQ section */
-.faq-h{
-    color: #24B540;
+.faq-h {
+	color: #24b540;
 }
 
 .faq-prop {
-    font-family: serif;
+	font-family: serif;
 }
 
 .faq-header {
-    font-size: 15px;
+	font-size: 15px;
 }
 
 .faq-body {
-    font-size: 18px;
+	font-size: 18px;
 }
 
 /* newsletter section */
 @media only screen and (max-width: 720px) {
-    .newsletter {
-        background-color: #1F2533;
-        color: white;
-    }
-  }
+	.newsletter {
+		background-color: #1f2533;
+		color: white;
+	}
+}
 
-  @media only screen and (min-width: 720px) {
-    .newsletter {
-        background-color: #F9F9FA;
-        color: #6C757D;
-    }
-  }
+@media only screen and (min-width: 720px) {
+	.newsletter {
+		background-color: #f9f9fa;
+		color: #6c757d;
+	}
+}
 
 /* footer section */
 footer {
-    background-color: #101010;
+	background-color: #101010;
 }
 
 .footer-links li {
-    list-style: none;
+	list-style: none;
 }
 
-.footer-links a{
-    text-decoration: none;
+.footer-links a {
+	text-decoration: none;
 }
 
 .green-footer {
-    color: #24B540;
+	color: #24b540;
 }
