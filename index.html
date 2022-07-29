@@ -10,9 +10,9 @@
 	</head>
 	<body>
 		<!--header-->
-		<header class="header-color">
+		<header class="header-color container-fluid">
 			<!--header div-->
-			<div class="pt-2 pb-1 row">
+			<div class="pt-2 pb-1 row mx-auto">
 				<!--space div-->
 				<div class="col-12 col-md-1 col-xlg-2"></div>
 
@@ -34,7 +34,7 @@
 				</div>
 
 				<!--social icon div-->
-				<div class="col-sm-12 col-md-2 header-2 pb-1 mx-auto text-center">
+				<div class="col-sm-12 col-md-2 header-2 pb-1">
 					<ul class="ms-auto">
 						<li>
 							<a href="#">
@@ -81,7 +81,7 @@
 		</header>
 
 		<!-- navbar -->
-		<nav class="navbar navbar-expand-lg navrbar-font bg-white sticky-top">
+		<nav class="navbar navbar-expand-lg navrbar-font bg-white sticky-top shadow">
 			<div class="container px-2">
 				<!-- nav brand -->
 				<a href="#" class="navbar-brand">
@@ -139,8 +139,8 @@
 							share books, reviews, swap stories and also earn rewards while at it!
 						</p>
 
-						<button type="button" class="btn btn-outline-warning intro-btn">
-							<span class="text-black fw-bold">HOW IT WORKS</span>
+						<button type="button" class="btn btn-outline-warning">
+							HOW IT WORKS
 							<i class="fa-solid fa-circle-arrow-right"></i>
 						</button>
 					</article>
@@ -217,7 +217,7 @@
 		<!-- mission section -->
 		<section class="container-fluid bg-black">
 			<div class="container-sm p-3 py-4 text-white row mission-section mx-auto">
-				<div class="col-md-3">
+				<div class="col-md">
 					<h3 class="h2">Mission Statement</h3>
 					<p>
 						Our mission is to help children develop a reading culture and make them
@@ -226,7 +226,7 @@
 					</p>
 				</div>
 
-				<div class="col-md-4">
+				<div class="col-md">
 					<h3 class="h2">Vision</h3>
 					<p>
 						Our vision is to have at least a hundred thousand (100,000) members in a
@@ -272,10 +272,10 @@
 		</section>
 
 		<section class="founder-section container-fluid">
-			<div class="container row mx-auto">
-				<article class="col-md pt-5">
+			<div class="container row mx-auto pt-4">
+				<article class="col-md">
 					<img
-						class="founder-img float-start rounded-circle pe-3"
+						class="founder-img float-start rounded-circle pe-2"
 						src="assets/images/founder.jpg"
 						alt="founder"
 					/>
@@ -299,9 +299,9 @@
 					</button>
 				</article>
 
-				<article class="col-md pt-5 px2">
+				<article class="col-md">
 					<img
-						class="founder-img float-start rounded-circle pe-3"
+						class="founder-img float-start rounded-circle pe-2"
 						src="assets/images/eniola-babatola.jpg"
 						alt="co-founder"
 					/>
@@ -469,27 +469,8 @@
 					<div class="our-drive-hr mx-auto mt-1"></div>
 				</h2>
 
-				<div id="book-gallery-carousel" class="carousel slide" data-bs-ride="carousel">
-					<div class="carousel-indicators">
-						<button
-							type="button"
-							data-bs-target="#book-gallery-carousel"
-							data-bs-slide-to="0"
-							class="active"
-						></button>
-						<button
-							type="button"
-							data-bs-target="#book-gallery-carousel"
-							data-bs-slide-to="1"
-						></button>
-						<button
-							type="button"
-							data-bs-target="#book-gallery-carousel"
-							data-bs-slide-to="2"
-						></button>
-					</div>
-
-					<div class="carousel-inner">
+				<div class="row">
+					<div class="owl-carousel owl theme">
 						<div class="carousel-item">
 							<div class="card overflow-hidden carousel-card">
 								<img
@@ -953,7 +934,7 @@
 				<div class="row mx-auto">
 					<div class="col-6 col-md-4 col-lg-3 m-auto partner-div">
 						<a href="#">
-							<div class="partner-circle text-center pt-3 mx-5">
+							<div class="partner-circle text-center pt-3 mx-auto">
 								<img class="w-50" src="assets/images/school.png" alt="school" />
 							</div>
 							<p class="text-white text-center">Schools</p>
@@ -962,7 +943,7 @@
 
 					<div class="col-6 col-md-4 col-lg-3 m-auto partner-div">
 						<a href="#">
-							<div class="partner-circle text-center pt-3 mx-5">
+							<div class="partner-circle text-center pt-3 mx-auto">
 								<img class="w-50" src="assets/images/church.png" alt="Churches" />
 							</div>
 							<p class="text-white text-center">Churches</p>
@@ -971,7 +952,7 @@
 
 					<div class="col-6 col-md-4 col-lg-3 m-auto partner-div">
 						<a href="#">
-							<div class="partner-circle text-center pt-3 mx-5">
+							<div class="partner-circle text-center pt-3 mx-auto">
 								<img class="w-50" src="assets/images/mosque.png" alt="Mosques" />
 							</div>
 							<p class="text-white text-center">Mosques</p>
@@ -980,7 +961,7 @@
 
 					<div class="col-6 col-md-4 col-lg-3 m-auto partner-div">
 						<a href="#">
-							<div class="partner-circle text-center pt-3 mx-5">
+							<div class="partner-circle text-center pt-3 mx-auto">
 								<img
 									class="w-50"
 									src="assets/images/child-centered-organization.png"
@@ -1026,17 +1007,26 @@
 						<div class="contact-us-hr mx-auto mt-2 mb-3"></div>
 					</h2>
 
-					<img src="assets/images/map.png" alt="map" class="img-fluid contact-us-img" />
+					<iframe
+						src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d126871.52635716727!2d3.421944!3d6.428056!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x5173c3d72fac2415!2sGain%20Africa!5e0!3m2!1sen!2sch!4v1659123264528!5m2!1sen!2sch"
+						width="90%"
+						height="250"
+						style="border: 0"
+						allowfullscreen=""
+						loading="lazy"
+						referrerpolicy="no-referrer-when-downgrade"
+					></iframe>
+					<!-- <img src="assets/images/map.png" alt="map" class="img-fluid contact-us-img" /> -->
 				</div>
 
-				<div class="d-flex mt-4 justify-content-evenly">
+				<div class="row mt-4 justify-content-evenly">
 					<img
 						src="assets/images/contact-bg.png"
 						alt=""
-						class="contact-us-form-img mx-auto d-none d-md-block img-fluid"
+						class="col-lg-5 contact-us-form-img d-none d-lg-block img-fluid ms-auto"
 					/>
 
-					<form class="m-auto">
+					<form class="col-lg-5 me-auto">
 						<div class="row mb-3 mt-3">
 							<div class="col-12 col-md">
 								<label for="name">Name</label>
@@ -1504,6 +1494,19 @@
 
 		<script src="assets/js/bootstrap.bundle.min.js"></script>
 		<script src="https://kit.fontawesome.com/374f4ee30a.js" crossorigin="anonymous"></script>
+		<script
+			src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"
+			integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ=="
+			crossorigin="anonymous"
+			referrerpolicy="no-referrer"
+		></script>
+		<script
+			src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"
+			integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw=="
+			crossorigin="anonymous"
+			referrerpolicy="no-referrer"
+		></script>
+		<script src="assets/js/script.js"></script>
 	</body>
 </html>
 

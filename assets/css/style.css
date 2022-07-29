@@ -1,5 +1,5 @@
 body {
-	font-family: Helvetica, Arial, sans-serif;
+	font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 	font-size: 13px;
 	overflow-x: hidden;
 }
@@ -10,26 +10,25 @@ body {
 	font-size: 13px;
 }
 
+header ul {
+	margin: 0;
+	padding: 0;
+	display: flex;
+	justify-content: center;
+}
+
 header li {
 	list-style: none;
-	display: flex;
 }
 
 header a {
 	color: white;
 	text-decoration: none;
-	display: flex;
 }
 
 header a:hover {
 	color: white;
 	text-decoration: underline;
-}
-
-header ul {
-	margin: 0;
-	padding: 0;
-	display: flex;
 }
 
 .header-1 a {
@@ -82,20 +81,28 @@ header ul {
 	min-width: 200px;
 }
 
-.intro-btn {
-	color: #ff5722;
-	border: #ff5722 solid 1px;
+.btn {
+	padding: 5px 10px;
 }
 
-.intro-btn:hover {
+.btn-outline-warning {
+	color: #000;
+	font-weight: 600;
+	border-color: #ff5a25;
+}
+
+.btn-outline-warning:hover {
 	background-color: #ff5722;
 	color: white;
 }
 
-.intro-btn span {
-	color: black;
+.fa-solid {
+	color: #ff5a25;
 }
 
+.fa-solid:hover {
+	color: white;
+}
 /* intro-secion image */
 .image-col {
 	position: relative;
@@ -191,6 +198,15 @@ header ul {
 /* founder section */
 .founder-section {
 	background-color: #f8f9fb;
+}
+
+.founder-section h6 {
+	font-size: 18px;
+}
+
+.founder-section p {
+	font-size: 12px;
+	margin-bottom: 0;
 }
 
 .founder-img {
