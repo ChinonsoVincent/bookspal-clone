@@ -6,6 +6,20 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 		<title>Bookspals</title>
 		<link rel="stylesheet" href="assets/css/bootstrap.min.css" />
+		<link
+			rel="stylesheet"
+			href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+			integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g=="
+			crossorigin="anonymous"
+			referrerpolicy="no-referrer"
+		/>
+		<link
+			rel="stylesheet"
+			href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css"
+			integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw=="
+			crossorigin="anonymous"
+			referrerpolicy="no-referrer"
+		/>
 		<link rel="stylesheet" href="assets/css/style.css" />
 	</head>
 	<body>
@@ -462,8 +476,8 @@
 		</section>
 
 		<!-- carousel section -->
-		<section class="container-fluid bg-light">
-			<div class="container">
+		<section class="container-fluid bg-light py-3">
+			<div class="container mx-center">
 				<h2 class="our-drive-h text-center">
 					<span class="our-drive-orange">Books </span> Gallery
 					<div class="our-drive-hr mx-auto mt-1"></div>
@@ -471,11 +485,11 @@
 
 				<div class="row">
 					<div class="owl-carousel owl theme">
-						<div class="carousel-item">
-							<div class="card overflow-hidden carousel-card">
+						<div class="item m-4 overflow-hidden">
+							<div class="card">
 								<img
 									src="assets/images/slip-and-slide-a-tale-of-friction.jpg"
-									class="card-img-top carousel-img"
+									class="card-img-top"
 									alt="SLIP AND SLIDE-A TALE OF FRICTION"
 								/>
 								<div class="card-body" style="padding: 5px">
@@ -484,11 +498,11 @@
 							</div>
 						</div>
 
-						<div class="carousel-item">
-							<div class="card overflow-hidden carousel-card">
+						<div class="item m-4 overflow-hidden">
+							<div class="card">
 								<img
 									src="assets/images/the-adventure-of-tom-sawyer.jpg"
-									class="card-img-top carousel-img"
+									class="card-img-top"
 									alt="THE ADVENTURE OF TOM SAWYER"
 								/>
 								<div class="card-body" style="padding: 5px">
@@ -497,11 +511,11 @@
 							</div>
 						</div>
 
-						<div class="carousel-item">
-							<div class="card overflow-hidden carousel-card">
+						<div class="item m-4 overflow-hidden">
+							<div class="card">
 								<img
 									src="assets/images/adventures-of-tom-sawyer.jpg"
-									class="card-img-top carousel-img"
+									class="card-img-top"
 									alt="ADVENTURES OF TOM SAWYER"
 								/>
 								<div class="card-body" style="padding: 5px">
@@ -510,11 +524,11 @@
 							</div>
 						</div>
 
-						<div class="carousel-item">
-							<div class="card overflow-hidden carousel-card">
+						<div class="item m-4 overflow-hidden">
+							<div class="card">
 								<img
 									src="assets/images/a-tale-of-two-cities-1.jpg"
-									class="card-img-top carousel-img"
+									class="card-img-top"
 									alt="A TALE OF TWO CITIES"
 								/>
 								<div class="card-body" style="padding: 5px">
@@ -523,11 +537,11 @@
 							</div>
 						</div>
 
-						<div class="carousel-item">
-							<div class="card overflow-hidden carousel-card">
+						<div class="item m-4 overflow-hidden">
+							<div class="card">
 								<img
 									src="assets/images/matchbox-dreams-bedtime-stories.jpg"
-									class="card-img-top carousel-img"
+									class="card-img-top"
 									alt="MATCHBOX DREAMS-BEDTIME STORIES"
 								/>
 								<div class="card-body" style="padding: 5px">
@@ -536,11 +550,11 @@
 							</div>
 						</div>
 
-						<div class="carousel-item">
-							<div class="card overflow-hidden carousel-card">
+						<div class="item m-4 overflow-hidden">
+							<div class="card">
 								<img
 									src="assets/images/the-giver.jpg"
-									class="card-img-top carousel-img"
+									class="card-img-top"
 									alt="THE GIVER"
 								/>
 								<div class="card-body" style="padding: 5px">
@@ -549,11 +563,11 @@
 							</div>
 						</div>
 
-						<div class="carousel-item">
-							<div class="card overflow-hidden carousel-card">
+						<div class="item m-4 overflow-hidden">
+							<div class="card">
 								<img
 									src="assets/images/who-will-save-the-planet-an-adventure-in-climate-change-activism.jpg"
-									class="card-img-top carousel-img"
+									class="card-img-top"
 									alt="WHO WILL SAVE THE PLANET-AN ADVENTURE IN CLIMATE CHANGE ACTIVISM"
 								/>
 								<div class="card-body" style="padding: 5px">
@@ -565,11 +579,11 @@
 							</div>
 						</div>
 
-						<div class="carousel-item">
-							<div class="card overflow-hidden carousel-card">
+						<div class="item m-4 overflow-hidden">
+							<div class="card">
 								<img
 									src="assets/images/the-dance-of-the-flamingos.jpg"
-									class="card-img-top carousel-img"
+									class="card-img-top"
 									alt="THE DANCE OF THE FLAMINGOS"
 								/>
 								<div class="card-body" style="padding: 5px">
@@ -578,16 +592,24 @@
 							</div>
 						</div>
 
-						<div class="carousel-item">
-							<img
-								src="assets/images/the-jungle-books.jpg"
-								alt=""
-								class="d-block w-25 carousel-img"
-							/>
-							<div class="card overflow-hidden carousel-card">
+						<div class="item m-4 overflow-hidden">
+							<div class="card">
+								<img
+									src="assets/images/the-jungle-books.jpg"
+									class="card-img-top"
+									alt="JUNGLE BOOK"
+								/>
+								<div class="card-body" style="padding: 5px">
+									<p class="card-text">JUNGLE BOOK</p>
+								</div>
+							</div>
+						</div>
+
+						<div class="item m-4 overflow-hidden">
+							<div class="card">
 								<img
 									src="assets/images/the-adventures-of-sherlock-holmes.jpg"
-									class="card-img-top carousel-img"
+									class="card-img-top"
 									alt="THE ADVENTURES OF SHERLOCK HOLMES"
 								/>
 								<div class="card-body" style="padding: 5px">
@@ -596,11 +618,11 @@
 							</div>
 						</div>
 
-						<div class="carousel-item">
-							<div class="card overflow-hidden carousel-card">
+						<div class="item m-4 overflow-hidden">
+							<div class="card">
 								<img
 									src="assets/images/default_book_thumbnail.jpg"
-									class="card-img-top carousel-img"
+									class="card-img-top"
 									alt="DIARY OF A WIMPY KID: CABIN FEVER"
 								/>
 								<div class="card-body" style="padding: 5px">
@@ -608,11 +630,11 @@
 								</div>
 							</div>
 						</div>
-						<div class="carousel-item">
-							<div class="card overflow-hidden carousel-card">
+						<div class="item m-4 overflow-hidden">
+							<div class="card">
 								<img
 									src="assets/images/jack-ferrington-and-the-school-for-swabbies.jpg"
-									class="card-img-top carousel-img"
+									class="card-img-top"
 									alt="JACK FERRINGTON AND THE SCHOOL FOR SWABBIES"
 								/>
 								<div class="card-body" style="padding: 5px">
@@ -623,11 +645,11 @@
 							</div>
 						</div>
 
-						<div class="carousel-item">
-							<div class="card overflow-hidden carousel-card">
+						<div class="item m-4 overflow-hidden">
+							<div class="card">
 								<img
 									src="assets/images/the-case-of-the-missing-smile.jpg"
-									class="card-img-top carousel-img"
+									class="card-img-top"
 									alt="THE CASE OF THE MISSING SMILE"
 								/>
 								<div class="card-body" style="padding: 5px">
@@ -636,11 +658,11 @@
 							</div>
 						</div>
 
-						<div class="carousel-item">
-							<div class="card overflow-hidden carousel-card">
+						<div class="item m-4 overflow-hidden">
+							<div class="card">
 								<img
 									src="assets/images/jack-and-the-magic-chalk.jpg"
-									class="card-img-top carousel-img"
+									class="card-img-top"
 									alt="JACK AND THE MAGIC CHALK"
 								/>
 								<div class="card-body" style="padding: 5px">
@@ -649,11 +671,11 @@
 							</div>
 						</div>
 
-						<div class="carousel-item">
-							<div class="card overflow-hidden carousel-card">
+						<div class="item m-4 overflow-hidden">
+							<div class="card">
 								<img
 									src="assets/images/charlottes-web.jpg"
-									class="card-img-top carousel-img"
+									class="card-img-top"
 									alt="CHARLOTTE'S WEB"
 								/>
 								<div class="card-body" style="padding: 5px">
@@ -661,11 +683,11 @@
 								</div>
 							</div>
 						</div>
-						<div class="carousel-item">
-							<div class="card overflow-hidden carousel-card">
+						<div class="item m-4 overflow-hidden">
+							<div class="card">
 								<img
 									src="assets/images/grimms-fairy-tales.jpg"
-									class="card-img-top carousel-img"
+									class="card-img-top"
 									alt="GRIMMS FAIRY TALES"
 								/>
 								<div class="card-body" style="padding: 5px">
@@ -674,11 +696,11 @@
 							</div>
 						</div>
 
-						<div class="carousel-item">
-							<div class="card overflow-hidden carousel-card">
+						<div class="item m-4 overflow-hidden">
+							<div class="card">
 								<img
 									src="assets/images/decision-working-together.jpg"
-									class="card-img-top carousel-img"
+									class="card-img-top"
 									alt="DECISION- WORKING TOGETHER"
 								/>
 								<div class="card-body" style="padding: 5px">
@@ -687,11 +709,11 @@
 							</div>
 						</div>
 
-						<div class="carousel-item">
-							<div class="card overflow-hidden carousel-card">
+						<div class="item m-4 overflow-hidden">
+							<div class="card">
 								<img
 									src="assets/images/the-hobbit.jpg"
-									class="card-img-top carousel-img"
+									class="card-img-top"
 									alt="THE HOBBIT"
 								/>
 								<div class="card-body" style="padding: 5px">
@@ -700,11 +722,11 @@
 							</div>
 						</div>
 
-						<div class="carousel-item">
-							<div class="card overflow-hidden carousel-card">
+						<div class="item m-4 overflow-hidden">
+							<div class="card">
 								<img
 									src="assets/images/ginger-and-the-giraffe.jpg"
-									class="card-img-top carousel-img"
+									class="card-img-top"
 									alt="GINGER AND THE GIRAFFE"
 								/>
 								<div class="card-body" style="padding: 5px">
@@ -713,11 +735,11 @@
 							</div>
 						</div>
 
-						<div class="carousel-item">
-							<div class="card overflow-hidden carousel-card">
+						<div class="item m-4 overflow-hidden">
+							<div class="card">
 								<img
 									src="assets/images/time-machine-1.jpg"
-									class="card-img-top carousel-img"
+									class="card-img-top"
 									alt="TIME MACHINE"
 								/>
 								<div class="card-body" style="padding: 5px">
@@ -726,11 +748,11 @@
 							</div>
 						</div>
 
-						<div class="carousel-item">
-							<div class="card overflow-hidden carousel-card">
+						<div class="item m-4 overflow-hidden">
+							<div class="card">
 								<img
 									src="assets/images/animal-farm.jpg"
-									class="card-img-top carousel-img"
+									class="card-img-top"
 									alt="ANIMAL FARM"
 								/>
 								<div class="card-body" style="padding: 5px">
@@ -739,11 +761,11 @@
 							</div>
 						</div>
 
-						<div class="carousel-item">
-							<div class="card overflow-hidden carousel-card">
+						<div class="item m-4 overflow-hidden">
+							<div class="card">
 								<img
 									src="assets/images/black-beauty.jpg"
-									class="card-img-top carousel-img"
+									class="card-img-top"
 									alt="BLACK BEAUTY"
 								/>
 								<div class="card-body" style="padding: 5px">
@@ -752,11 +774,11 @@
 							</div>
 						</div>
 
-						<div class="carousel-item">
-							<div class="card overflow-hidden carousel-card">
+						<div class="item m-4 overflow-hidden">
+							<div class="card">
 								<img
 									src="assets/images/billy-and-ant-lie-book-4-of-the-billy-growing-up-series.jpg"
-									class="card-img-top carousel-img"
+									class="card-img-top"
 									alt="BILLY AND ANT LIE-BOOK 4 OF THE BILLY GROWING UP SERIES"
 								/>
 								<div class="card-body" style="padding: 5px">
@@ -767,11 +789,11 @@
 							</div>
 						</div>
 
-						<div class="carousel-item">
-							<div class="card overflow-hidden carousel-card">
+						<div class="item m-4 overflow-hidden">
+							<div class="card">
 								<img
 									src="assets/images/default_book_thumbnail.jpg"
-									class="card-img-top carousel-img"
+									class="card-img-top"
 									alt="DIARY OF A WIMPY KID: THE GETAWAY"
 								/>
 								<div class="card-body" style="padding: 5px">
@@ -1116,7 +1138,7 @@
 				<div class="row mx-auto">
 					<div class="accordion col-12 col-sm-6 my-3" id="faq-accordion-1">
 						<!-- question 1 -->
-						<div class="accordion-item bg-light faq-prop border border-top-0">
+						<div class="accordion-item bg-light border border-top-0 my-2">
 							<div class="accordion-item bg-light">
 								<h2 class="accordion-header" id="question-one">
 									<button
@@ -1137,7 +1159,7 @@
 									class="accordion-collapse collapse show"
 									data-bs-parent="#faq-accordion-1"
 								>
-									<div class="accordion-body faq-body">
+									<div class="accordion-body">
 										Membership is absolutely free and no registration fees
 										required. What if you don't have up to the numbers required
 										to form a group within the school or church. We would
@@ -1150,7 +1172,7 @@
 						</div>
 
 						<!-- question 2 -->
-						<div class="accordion-item bg-light faq-prop border border-top-0">
+						<div class="accordion-item bg-light border border-top-0 my-2">
 							<h2 class="accordion-header" id="question-two">
 								<button
 									class="accordion-button collapsed"
@@ -1183,7 +1205,7 @@
 						</div>
 
 						<!-- question 3 -->
-						<div class="accordion-item bg-light faq-prop border border-top-0">
+						<div class="accordion-item bg-light border border-top-0 my-2">
 							<h2 class="accordion-header" id="question-three">
 								<button
 									class="accordion-button collapsed"
@@ -1210,7 +1232,7 @@
 						</div>
 
 						<!-- question 4 -->
-						<div class="accordion-item bg-light faq-prop border border-top-0">
+						<div class="accordion-item bg-light border border-top-0 my-2">
 							<h2 class="accordion-header" id="question-four">
 								<button
 									class="accordion-button collapsed"
@@ -1240,7 +1262,7 @@
 
 					<div class="accordion col-12 col-sm-6 my-3" id="faq-accordion">
 						<!-- question 5 -->
-						<div class="accordion-item bg-light faq-prop border border-top-0">
+						<div class="accordion-item bg-light border border-top-0 my-2">
 							<h2 class="accordion-header" id="question-five">
 								<button
 									class="accordion-button collapsed"
@@ -1270,7 +1292,7 @@
 						</div>
 
 						<!-- question 6 -->
-						<div class="accordion-item bg-light faq-prop border border-top-0">
+						<div class="accordion-item bg-light border border-top-0 my-2">
 							<h2 class="accordion-header" id="question-six">
 								<button
 									class="accordion-button collapsed"
@@ -1299,7 +1321,7 @@
 						</div>
 
 						<!-- question 7 -->
-						<div class="accordion-item bg-light faq-prop border border-top-0">
+						<div class="accordion-item bg-light border border-top-0 my-2">
 							<h2 class="accordion-header" id="question-seven">
 								<button
 									class="accordion-button collapsed"
@@ -1332,7 +1354,7 @@
 						</div>
 
 						<!-- question 8 -->
-						<div class="accordion-item bg-light faq-prop border border-top-0">
+						<div class="accordion-item bg-light border border-top-0 my-2">
 							<h2 class="accordion-header" id="question-eight">
 								<button
 									class="accordion-button collapsed"
@@ -1384,10 +1406,10 @@
 
 		<!-- footer -->
 		<footer>
-			<div class="container-fluid footer py-4">
-				<div class="container text-white row ps-3">
-					<div class="footer-links pb-3 col-md-4">
-						<p>Quick Links</p>
+			<div class="container-fluid footer py-2">
+				<div class="container text-white mx-auto row">
+					<div class="footer-links col-md-4">
+						<p class="text-center w-50">Quick Links</p>
 
 						<ul>
 							<li class="text-dark">
@@ -1402,8 +1424,8 @@
 						</ul>
 					</div>
 
-					<div class="footer-links pb-3 col-md-4">
-						<p>Quick Links</p>
+					<div class="footer-links col-md-4">
+						<p class="text-center w-50">Quick Links</p>
 
 						<ul>
 							<li class="text-dark">
@@ -1429,7 +1451,7 @@
 					</div>
 
 					<div class="col-md-4">
-						<p>Let's Connect</p>
+						<p class="text-center w-50">Let's Connect</p>
 
 						<ul class="footer-links d-flex">
 							<li>
@@ -1459,7 +1481,7 @@
 							</li>
 						</ul>
 
-						<ul class="py-2 footer-links">
+						<ul class="footer-links">
 							<li>
 								<a href="#" class="text-secondary">
 									<i class="fa-solid fa-location-dot"></i> #184 Ademola Oniru,

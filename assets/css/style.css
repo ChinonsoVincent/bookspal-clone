@@ -81,7 +81,7 @@ header a:hover {
 	min-width: 200px;
 }
 
-.btn {
+.nav-intro .btn {
 	padding: 5px 10px;
 }
 
@@ -92,15 +92,15 @@ header a:hover {
 }
 
 .btn-outline-warning:hover {
-	background-color: #ff5722;
+	background-color: #ff5a25;
 	color: white;
 }
 
-.fa-solid {
+.nav-intro .fa-solid {
 	color: #ff5a25;
 }
 
-.fa-solid:hover {
+.nav-intro .fa-solid:hover {
 	color: white;
 }
 /* intro-secion image */
@@ -244,14 +244,18 @@ header a:hover {
 }
 
 /* carousel */
-.carousel-card {
-	max-width: 7rem;
-	max-height: 200px;
-	font-size: 10px;
+.card {
+	width: 100px;
+	height: 180px;
 }
 
-.carousel-card .carousel-img {
-	max-height: 170px;
+.card-img-top {
+	height: 150px;
+	width: 100%;
+}
+
+.card-text {
+	font-size: 10px;
 }
 
 /* club-categories */
@@ -388,7 +392,7 @@ header a:hover {
 	color: #24b540;
 }
 
-.faq-prop {
+.accordion-item {
 	font-family: serif;
 }
 
@@ -396,8 +400,19 @@ header a:hover {
 	font-size: 15px;
 }
 
-.faq-body {
-	font-size: 18px;
+.accordion-button {
+	padding: 2px 5px;
+	background-color: #f4f5f7;
+}
+
+.accordion-header i {
+	font-size: 12px;
+}
+
+.accordion-body {
+	font-size: 16px;
+	padding: 10px;
+	color: #6c757d;
 }
 
 /* newsletter section */
