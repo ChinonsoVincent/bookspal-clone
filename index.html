@@ -229,10 +229,10 @@
 		</section>
 
 		<!-- mission section -->
-		<section class="container-fluid bg-black">
-			<div class="container-sm p-3 py-4 text-white row mission-section mx-auto">
+		<section class="container-fluid bg-black py-4">
+			<div class="container-sm text-white row mission-section mx-auto">
 				<div class="col-md">
-					<h3 class="h2">Mission Statement</h3>
+					<h3>Mission Statement</h3>
 					<p>
 						Our mission is to help children develop a reading culture and make them
 						lifelong readers by engaging in activities and programs that are
@@ -241,7 +241,7 @@
 				</div>
 
 				<div class="col-md">
-					<h3 class="h2">Vision</h3>
+					<h3>Vision</h3>
 					<p>
 						Our vision is to have at least a hundred thousand (100,000) members in a
 						year in several locations in Nigeria to develop a reading culture among the
@@ -252,35 +252,140 @@
 				</div>
 
 				<div class="col-md-5">
-					<h3 class="h2">Core Values</h3>
+					<h3>Core Values</h3>
 					<p>We uphold these values that makes our vision and mission a reality.</p>
 
-					<ul class="nav core-value-nav">
-						<li class="nav-item">
-							<a class="nav-link-active" aria-current="page" href="#">A. DILIGENCE</a>
+					<ul class="nav nav-tabs" id="myTab" role="tablist">
+						<li class="nav-item" role="presentation">
+							<button
+								class="nav-link active"
+								id="diligence-tab"
+								data-bs-toggle="tab"
+								data-bs-target="#diligence"
+								type="button"
+								role="tab"
+								aria-controls="diligence"
+								aria-selected="true"
+							>
+								A. DILIGENCE
+							</button>
 						</li>
-						<li class="nav-item">
-							<a class="text-white" href="#">B. ENTHUSIASM</a>
+						<li class="nav-item" role="presentation">
+							<button
+								class="nav-link"
+								id="enthusiasm-tab"
+								data-bs-toggle="tab"
+								data-bs-target="#enthusiasm"
+								type="button"
+								role="tab"
+								aria-controls="enthusiasm"
+								aria-selected="false"
+							>
+								B. ENTHUSIASM
+							</button>
 						</li>
-						<li class="nav-item">
-							<a class="text-white" href="#">C. RESOURCEFUL</a>
+						<li class="nav-item" role="presentation">
+							<button
+								class="nav-link"
+								id="resorceful-tab"
+								data-bs-toggle="tab"
+								data-bs-target="#resorceful"
+								type="button"
+								role="tab"
+								aria-controls="resorceful"
+								aria-selected="false"
+							>
+								C. RESOURCEFUL
+							</button>
 						</li>
-						<li class="nav-item">
-							<a class="text-white" href="#">D. RESPECT</a>
+						<li class="nav-item" role="presentation">
+							<button
+								class="nav-link"
+								id="respect-tab"
+								data-bs-toggle="tab"
+								data-bs-target="#respect"
+								type="button"
+								role="tab"
+								aria-controls="respect"
+								aria-selected="false"
+							>
+								D. RESPECT
+							</button>
 						</li>
-						<li class="nav-item">
-							<a class="text-white" href="#">E. FAITHFUL</a>
+						<li class="nav-item" role="presentation">
+							<button
+								class="nav-link"
+								id="faithful-tab"
+								data-bs-toggle="tab"
+								data-bs-target="#faithful"
+								type="button"
+								role="tab"
+								aria-controls="faithful"
+								aria-selected="false"
+							>
+								E. FAITHFUL
+							</button>
 						</li>
 					</ul>
-
-					<hr class="core-value-hr" />
-
-					<p>
-						We recognize the importance of diligence and we work to achieve our goals by
-						being committed devotedly to our cause. We work persistently to spread the
-						news of the importance of reading to the young children to diverse
-						communities.
-					</p>
+					<div class="tab-content" id="myTabContent">
+						<div
+							class="tab-pane fade show active"
+							id="diligence"
+							role="tabpanel"
+							aria-labelledby="diligence-tab"
+						>
+							We recognize the importance of diligence and we work to achieve our
+							goals by being committed devotedly to our cause. We work persistently to
+							spread the news of the importance of reading to the young children to
+							diverse communities.
+						</div>
+						<div
+							class="tab-pane fade"
+							id="enthusiasm"
+							role="tabpanel"
+							aria-labelledby="enthusiasm-tab"
+						>
+							We believe that enthusiasm is the fuel that drives commitment.
+							Therefore, we aim to help each child to be enthusiastic by focusing on
+							his/her interests while introducing new aspects he/she can learn from.
+							We are also enthusiastic in seeing that readers truly become leaders, so
+							we focus on the improvements that each participant make and commend them
+							for it.
+						</div>
+						<div
+							class="tab-pane fade"
+							id="resorceful"
+							role="tabpanel"
+							aria-labelledby="resorceful-tab"
+						>
+							We adequately optimize the opportunities we have to achieve our goals
+							through our partnerships with other organizations and the social media.
+							We also encourage our participants to be resourceful by reading more
+							books for less cost.
+						</div>
+						<div
+							class="tab-pane fade"
+							id="respect"
+							role="tabpanel"
+							aria-labelledby="respect-tab"
+						>
+							We admit that every child is unique in his/her own way and we
+							incorporate respect while dealing with every child and also encourage
+							the children to be respectful of one another as they interact together.
+							We ensure that the children do not interrupt one another, and we hold
+							the stance that there is no wrong answer or opinion.
+						</div>
+						<div
+							class="tab-pane fade"
+							id="faithful"
+							role="tabpanel"
+							aria-labelledby="faithful-tab"
+						>
+							We honour our words and principles. We are faithful to what we represent
+							and the message we pass across to the children and society, which is
+							that reading is fun and helps to develop one to become a great leader.
+						</div>
+					</div>
 				</div>
 			</div>
 		</section>
