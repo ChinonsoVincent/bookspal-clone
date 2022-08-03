@@ -15,6 +15,7 @@ header ul {
 	padding: 0;
 	display: flex;
 	justify-content: center;
+	flex-wrap: wrap;
 }
 
 header li {
@@ -373,6 +374,10 @@ header a:hover {
 }
 
 /* contact us section */
+.map {
+	max-width: 1000px;
+}
+
 .our-drive-h-bigger {
 	color: #24b540;
 	font-size: 30px;
