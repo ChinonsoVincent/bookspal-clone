@@ -65,6 +65,16 @@ header a:hover {
 	color: #f44336;
 }
 
+.navbar-toggler {
+	padding: 2px;
+	font-size: 0.75rem;
+	border-radius: 0.1rem;
+}
+
+.navbar-toggler-icon {
+	background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='red' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+
 /* intro-secion */
 .nav-intro {
 	background: url(/assets/images/banner3.png) no-repeat;
@@ -115,8 +125,8 @@ header a:hover {
 	width: 250px;
 	height: 150px;
 	position: relative;
-	top: 320px;
-	right: 100px;
+	top: 300px;
+	right: 150px;
 	z-index: 2;
 }
 
@@ -124,8 +134,8 @@ header a:hover {
 	width: 200px;
 	height: 300px;
 	position: relative;
-	top: 50px;
-	right: 0px;
+	bottom: 55px;
+	right: 40px;
 }
 
 /* black background section */
